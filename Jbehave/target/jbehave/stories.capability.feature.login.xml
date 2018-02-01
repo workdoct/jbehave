@@ -1,0 +1,23 @@
+<story path="stories/capability/feature/login.story" title="">
+<meta>
+<property keyword="@" name="id" value="login"/>
+</meta>
+<scenario keyword="Scenario:" title="Login to application">
+<examples keyword="Examples:">
+<step>Given User should be application Platform &lt;URL&gt;</step>
+<step>When user enter username &lt;USERNAME&gt;</step>
+<step>And enter password &lt;PASSWORD&gt; and click on submit button</step>
+<step>Then HomePage should be displayed</step>
+<parameters>
+<names><name>USERNAME</name><name>PASSWORD</name><name>URL</name></names>
+<values><value>workdoct</value><value>wkm754</value><value>https://www.freecrm.com</value></values>
+</parameters>
+
+<example keyword="Example:">{USERNAME=workdoct, PASSWORD=wkm754, URL=https://www.freecrm.com, id=login}</example>
+<step outcome="successful">Given User should be application Platform <parameter>https://www.freecrm.com</parameter></step>
+<step outcome="successful">When user enter username <parameter>workdoct</parameter></step>
+<step outcome="successful">And enter password <parameter>wkm754</parameter> and click on submit button</step>
+<step outcome="successful">Then HomePage should be displayed</step>
+</examples>
+</scenario>
+</story>

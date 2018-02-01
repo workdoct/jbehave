@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>stories.capability.feature.login</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">stories/capability/feature/login.story</div>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@id login</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Login to application</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given User should be application Platform &lt;URL&gt;</div>
+<div class="step">When user enter username &lt;USERNAME&gt;</div>
+<div class="step">And enter password &lt;PASSWORD&gt; and click on submit button</div>
+<div class="step">Then HomePage should be displayed</div>
+<table>
+<thead>
+<tr>
+<th>USERNAME</th><th>PASSWORD</th><th>URL</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>workdoct</td><td>wkm754</td><td>https://www.freecrm.com</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {USERNAME=workdoct, PASSWORD=wkm754, URL=https://www.freecrm.com, id=login}</h3>
+<div class="step successful">Given User should be application Platform <span class="step parameter">https://www.freecrm.com</span></div>
+<div class="step successful">When user enter username <span class="step parameter">workdoct</span></div>
+<div class="step successful">And enter password <span class="step parameter">wkm754</span> and click on submit button</div>
+<div class="step successful">Then HomePage should be displayed</div>
+</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

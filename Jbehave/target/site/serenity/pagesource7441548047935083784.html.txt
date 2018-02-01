@@ -1,0 +1,9 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<title>CRMPRO</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+	<frameset cols="0,*">
+	    <frame name="leftpanel" src="https://www.freecrm.com/system/left_panel.cfm" marginwidth="0" marginheight="0" scrolling="auto" frameborder="1" />
+	    <frame name="mainpanel" src="https://www.freecrm.com/system/index.cfm" marginwidth="0" marginheight="0" scrolling="auto" frameborder="0" />
+	</frameset>
+	</html>
